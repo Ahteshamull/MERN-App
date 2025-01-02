@@ -37,7 +37,7 @@ const signup = () => {
   
 
     try {
-        const url = "http://localhost:3000/auth/registration";
+        const url = "https://mern-app-vert.vercel.app/auth/registration";
       const response = await fetch(url, {
         method: "POST",
         headers: {
