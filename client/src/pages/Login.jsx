@@ -33,7 +33,7 @@ const Login = () => {
     // }
 
     try {
-      const url = "https://mern-app-ruby-six.vercel.app/auth/login";
+      const url = "https://hasan-mern-app.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
